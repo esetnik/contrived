@@ -1,0 +1,23 @@
+{
+  "name": "contrived",
+  "version": "0.0.1",
+  "author": "Ethan Setnik <esetnik@gmail.com>",
+  "description": "a simple way to load contrived data for your node app",
+  "main": "./lib/contrive",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esetnik/contrived.git"
+  },
+  "keywords": [
+    "contrived",
+    "data",
+    "fake"
+  ],
+  "dependencies" : {
+    "coffee-script": "1.6.3",
+    "js-yaml": "2.0.5"
+  },
+  "license": "MIT",
+  "engines": { "node": ">=0.8.0" },
+  "directories": { "lib": "./lib/contrive.coffee" }
+}
